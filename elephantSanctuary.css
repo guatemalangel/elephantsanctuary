@@ -1,0 +1,332 @@
+/*Maria*/
+.columns {
+    display: flex;
+ 
+
+  }
+  
+
+    
+body {
+    min-height: 100vh;
+    font-family: var(--ff-body);
+    font-weight: var(--fw-body);
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+   
+#work {
+    font-size: 20px;
+    color: rgb(32, 74, 29);
+    background-color: hsl(86, 62%, 85%, 0.5);
+    overflow:scroll;
+    height: 300px;
+    padding: 5%;
+    margin-right: 5%;
+  }
+.mission{
+    color: rgb(32, 74, 29);
+    background-color: hsl(86, 62%, 85%, 0.5);  
+    font-size: 20px;
+    overflow:scroll;
+    height: 300px;
+    padding: 5%;
+    margin-right: 5%;
+}
+#Values{
+    color: rgb(32, 74, 29);
+    background-color: hsl(86, 62%, 85%, 0.5);
+    font-size: 20px;
+    overflow:scroll;
+    height: 310px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+     margin-right: 5%;
+}
+
+#Mission{
+    text-align: center;
+}
+#Contact{
+    text-align: center;
+}
+  
+h3 {
+    margin-top: 0;
+    border: 1px solid white;
+    text-align: center;
+    color: rgb(32, 74, 29);
+    background-color: hsl(86, 62%, 85%, 0.5);
+    margin-right: 5%;
+    }
+/*maria*/
+
+
+
+#body-container{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+#page-content{
+    display: grid;
+    grid-template-columns: 40% 20% auto;
+    
+}
+
+.row-1, .row-2, .row-3{
+    grid-column: 1 / span 3;
+}
+    /*sov*/
+    .heroimage {
+      background-image: url('https://www.savetheelephants.org/wp-content/uploads/2022/12/2Q5A5993Clouds-Buffalo-Springs-%C2%A9-Robbie-Labanowski-2019.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    #navbar {
+     position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;}
+    
+    #navbar a {
+      display: flex;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    
+    #navbar a:hover {
+      background-color: #ddd;
+      color: black;
+      display: inline-block;
+    }
+    
+    
+    
+    .sticky + .content {
+      padding-top: 60px;
+    }
+      
+    h1 {
+        font-size: 120px;
+        text-align: center;
+      color: #fff;
+      }
+      /*sov*/
+
+      /*angel*/
+     
+      .context {
+        box-sizing: border-box;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-color: hsl(86, 62%, 85%, 0.5);
+        font-size: 20px;
+        color: rgb(32, 74, 29);
+        padding: 10px;
+       
+    
+    }
+    
+  
+
+    .adoption-form {
+        background-color: hsl(86, 62%, 85%, 0.5);
+        grid-column: 2 / span 2;
+        box-sizing: border-box;
+        padding: 50px;
+        margin-right: 5%;
+    }
+    
+    .form-group {
+        margin-bottom: 1px;
+        width: 50%;
+    }
+    
+    .half-width {
+        width: 49%;
+        float: left;
+        margin-right: 1%;
+        box-sizing: border-box;
+    }
+    
+    .half-width:last-child {
+        margin-right: 0;
+    }
+    
+    input[type="text"], input[type="email"] {
+        padding: 25px;
+        width: 100%;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    
+    .adopt-dropbtn {
+        background-color: #A1C059;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .adopt-dropbtn:hover, .adopt-dropbtn:focus {
+        background-color: #738A3F;
+    }
+    
+    .dropdown {
+        position: relative;
+        width: 50%;
+        margin-bottom: 15px
+    }
+    
+    .adopt-dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        width: calc(100% - 2px); /* Adjusting for border */
+        border: 1px solid #ccc;
+    }
+    
+    .adopt-dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .adopt-dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .show {
+        display: block;
+    }
+    
+    .submit-btn {
+        background-color: #A1C059;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 50%;
+        text-align: center;
+    }
+    
+    .submit-btn:hover, .submit-btn:focus {
+        background-color: #2980B9;
+    }
+    
+/*angel*/
+
+/*christina*/
+
+body {
+    font-family: Arial, sans-serif;
+   background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #A1C059;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.tab {
+    overflow: hidden;
+    background-color: #333;
+}
+.tab button {
+    background-color: #333;
+    color: #A1C059;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+.tab button:hover {
+    background-color: #444;
+}
+.tabcontent {
+    display: none;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+
+}
+
+#information{
+    font-size: 20px;
+    color: rgb(32, 74, 29);
+    background-color: hsl(86, 62%, 85%, 0.5);
+    text-align: center;
+    margin-right: 650px;
+    margin-left: 650px;
+}
+
+.contact-form {
+    display: flex;
+}
+.column {
+    flex: 1;
+    padding: 10px;
+}
+.left-column {
+    border-right: 1px solid #ccc;
+}
+.form-group input[type=“text”],
+.form-group input[type=“email”] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    height: 150px;
+}
+
+footer {
+    /*background-color: #333;*/
+    color: #A1C059;
+    text-align: center;
+    padding: 10px 0;
+}
+.social-media {
+    margin-top: 10px;
+}
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+h2{
+    color: white;
+}
